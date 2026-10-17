@@ -1,0 +1,50 @@
+name: 굿즈 소진현황 수집
+
+on:
+  schedule:
+    # 30분마다 (UTC 기준이지만 '매 30분'이라 시간대 무관)
+    # GitHub 서버가 바쁘면 몇 분~수십 분 늦게 실행될 수 있음
+    - cron: "7,37 * * * *"
+  workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: 수집
+        id: crawl
+        continue-on-error: true   # 한 사이트가 실패해도 결과는 저장
+        env:
+          # 저장소 Settings > Secrets and variables > Actions > Variables 에서
+          # USE_SAMPLE=1 로 두면 샘플 데이터, 지우면 실제 사이트 수집
+          USE_SAMPLE: ${{ vars.USE_SAMPLE }}
+        run: python crawler/main.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name "goods-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Seoul date '+%m-%d %H:%M')"
+          git push
+
+      - name: 수집 실패 표시
+        if: steps.crawl.outcome == 'failure'
+        run: exit 1
