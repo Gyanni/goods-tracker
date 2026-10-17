@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#13141f">
+<title>굿즈 소진현황</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* 불 꺼진 상영관: 벨벳 남색 바탕, 스크린 빛 같은 글자 */
+  --velvet:#13141f;   /* 바탕 */
+  --seat:#1b1d2b;     /* 카드 */
+  --seat-hi:#232637;  /* 눌림/강조 */
+  --aisle:#2c2f42;    /* 선 */
+  --screen:#ece6d8;   /* 본문 글자 */
+  --dim:#8f8c9e;      /* 보조 글자 */
+
+  --ok:#6fd3b0;  --low:#f0b65a;  --out:#e2737c;  --prep:#a69cd8;  --unk:#6b6a7a;
+  --mega:#9a7cf4; --cgv:#f0625a;
+
+  --serif:"Gowun Batang", "Nanum Myeongjo", serif;
+  --sans:"Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--velvet);color:var(--screen);font:15px/1.55 var(--sans);letter-spacing:-.005em}
+a{color:inherit}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--screen);outline-offset:2px;border-radius:6px}
+
+/* 상단: 스크린 빛이 위에서 번지는 느낌 하나만 */
+.top{
+  background:
+    radial-gradient(120% 140% at 50% -60%, rgba(236,230,216,.13), transparent 60%),
+    var(--velvet);
+  border-bottom:1px solid var(--aisle);
+}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+.hero{padding:40px 0 22px;display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between}
+h1{font:700 clamp(28px,5vw,40px)/1.15 var(--serif);margin:0;letter-spacing:-.01em}
+.hero p{margin:6px 0 0;color:var(--dim);font-size:14px}
+.fresh{display:flex;align-items:center;gap:8px;color:var(--dim);font-size:13px;white-space:nowrap}
+.fresh i{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 4px rgba(111,211,176,.15)}
+.fresh.stale i{background:var(--low);box-shadow:0 0 0 4px rgba(240,182,90,.15)}
+
+.notice{margin:0 0 18px;padding:10px 14px;border-radius:10px;font-size:13px;background:rgba(240,182,90,.1);color:var(--low)}
+.notice.err{background:rgba(226,115,124,.1);color:var(--out)}
+
+/* 고정 툴바 */
+.bar{position:sticky;top:0;z-index:5;background:rgba(19,20,31,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--aisle)}
+.bar .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-top:12px;padding-bottom:12px}
+.seg{display:inline-flex;background:var(--seat);border:1px solid var(--aisle);border-radius:10px;padding:3px}
+.seg button{border:0;background:none;padding:6px 12px;border-radius:7px;cursor:pointer;color:var(--dim);font-size:14px;white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--seat-hi);color:var(--screen);font-weight:600}
+.search{flex:1 1 220px;min-width:0;position:relative}
+.search input{width:100%;background:var(--seat);border:1px solid var(--aisle);border-radius:10px;padding:8px 12px 8px 34px}
+.search input::placeholder{color:var(--dim)}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--dim)}
+select{background:var(--seat);border:1px solid var(--aisle);border-radius:10px;padding:8px 10px;cursor:pointer}
+
+main{padding:8px 0 80px}
+
+/* 영화 묶음 */
+.movie{margin-top:34px}
+.movie h2{font:700 22px/1.3 var(--serif);margin:0 0 12px;letter-spacing:-.01em}
+
+/* 굿즈 카드 */
+.goods{background:var(--seat);border:1px solid var(--aisle);border-radius:14px;padding:16px 18px 14px;margin-bottom:10px}
+.g-head{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;justify-content:space-between}
+.g-name{display:flex;align-items:baseline;gap:10px;min-width:0}
+.g-name b{font-size:16px;font-weight:600}
+.chain{font-size:12px;font-weight:600;white-space:nowrap}
+.chain::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:1px;background:currentColor}
+.chain.mega{color:var(--mega)} .chain.cgv{color:var(--cgv)}
+.g-meta{font-size:13px;color:var(--dim);display:flex;gap:14px;align-items:baseline}
+.g-meta strong{color:var(--screen);font-size:15px;font-variant-numeric:tabular-nums}
+.g-meta a{text-decoration:none;border-bottom:1px solid var(--aisle)}
+.g-meta a:hover{border-color:var(--dim)}
+
+/* 좌석 줄: 극장 하나 = 좌석 하나 */
+.seats{display:flex;flex-wrap:wrap;gap:4px;margin:12px 0 2px}
+.seats span{width:12px;height:9px;border-radius:3px 3px 1px 1px;background:var(--unk)}
+.seats .보유{background:var(--ok)} .seats .소량{background:var(--low)}
+.seats .소진{background:var(--out);opacity:.35} .seats .준비중{background:transparent;box-shadow:inset 0 0 0 1px var(--prep)}
+
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.chip{font-size:13px;padding:4px 10px 4px 9px;border-radius:999px;background:var(--velvet);border:1px solid var(--aisle);white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+.chip i{width:6px;height:6px;border-radius:50%;background:var(--unk);flex:none}
+.chip.보유 i{background:var(--ok)} .chip.소량 i{background:var(--low)} .chip.준비중 i{background:var(--prep)}
+.chip.소량{color:var(--low)} .chip.준비중{color:var(--prep)}
+.chip.소진{color:var(--dim);text-decoration:line-through;text-decoration-color:rgba(226,115,124,.7)}
+.chip.소진 i{background:var(--out);opacity:.6}
+.more{margin-top:10px;background:none;border:0;padding:4px 0;color:var(--dim);font-size:13px;cursor:pointer;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--aisle)}
+.more:hover{color:var(--screen)}
+.none{margin-top:12px;font-size:13px;color:var(--out)}
+
+.legend{display:flex;flex-wrap:wrap;gap:14px;color:var(--dim);font-size:12px;margin-top:20px}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:10px;height:8px;border-radius:3px 3px 1px 1px}
+
+/* 변화 기록 */
+.log{margin-top:26px;border-top:1px solid var(--aisle)}
+.day{font:700 15px var(--serif);color:var(--dim);margin:26px 0 6px}
+.row{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:12px;align-items:center;padding:11px 0;border-bottom:1px solid var(--aisle)}
+.row time{color:var(--dim);font-size:13px;font-variant-numeric:tabular-nums}
+.row .who{min-width:0}
+.row .who b{font-weight:600}
+.row .who div{color:var(--dim);font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.flow{display:flex;align-items:center;gap:6px;font-size:13px;white-space:nowrap}
+.flow .chip{padding:2px 9px 2px 8px}
+.flow .arrow{color:var(--dim)}
+
+.empty{padding:70px 0;text-align:center;color:var(--dim)}
+.empty b{display:block;color:var(--screen);font:700 18px var(--serif);margin-bottom:6px}
+.pager{display:block;margin:20px auto 0;background:var(--seat);border:1px solid var(--aisle);border-radius:10px;padding:8px 16px;cursor:pointer}
+
+@media (max-width:640px){
+  .hero{padding-top:28px}
+  .bar .wrap{gap:8px}
+  .search{flex-basis:100%;order:-1}
+  .seg button{padding:6px 10px}
+  .row{grid-template-columns:44px minmax(0,1fr);}
+  .row .flow{grid-column:2}
+}
+@media (prefers-reduced-motion:no-preference){
+  .goods{animation:in .35s ease both}
+  @keyframes in{from{opacity:0}to{opacity:1}}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="hero">
+      <div>
+        <h1>굿즈 소진현황</h1>
+        <p>메가박스와 CGV 공식 소진현황을 30분마다 모아서 보여줍니다</p>
+      </div>
+      <div class="fresh" id="fresh"><i></i><span id="updated">불러오는 중</span></div>
+    </div>
+    <div id="notices"></div>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="seg" role="group" aria-label="보기">
+      <button data-tab="now" aria-pressed="true">지금 현황</button>
+      <button data-tab="hist" aria-pressed="false">변화 기록</button>
+    </div>
+    <label class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="영화, 굿즈, 극장 검색" aria-label="검색">
+    </label>
+    <div class="seg" role="group" aria-label="영화관">
+      <button data-chain="all" aria-pressed="true">전체</button>
+      <button data-chain="메가박스" aria-pressed="false">메가박스</button>
+      <button data-chain="CGV" aria-pressed="false">CGV</button>
+    </div>
+    <select id="region" aria-label="지역"><option value="">모든 지역</option></select>
+    <select id="status" aria-label="상태">
+      <option value="">모든 상태</option>
+      <option value="avail">남은 곳만</option>
+      <option value="소진">소진된 곳만</option>
+    </select>
+  </div>
+</div>
+
+<main class="wrap" id="view"></main>
+
+<script>
+const state = { tab: "now", chain: "all", q: "", region: "", status: "", histLimit: 150, open: new Set() };
+let DATA = { items: [] }, HIST = [];
+
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const chainTag = c => `<span class="chain ${c === "CGV" ? "cgv" : "mega"}">${esc(c)}</span>`;
+const KST = { timeZone: "Asia/Seoul" };
+const fmtTime = iso => new Date(iso).toLocaleTimeString("ko-KR", { ...KST, hour: "2-digit", minute: "2-digit", hour12: false });
+const fmtDay = iso => new Date(iso).toLocaleDateString("ko-KR", { ...KST, month: "long", day: "numeric", weekday: "short" });
+const fmtFull = iso => new Date(iso).toLocaleString("ko-KR", { ...KST, month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
+const minsAgo = iso => Math.round((Date.now() - new Date(iso)) / 60000);
+const ago = iso => {
+  const m = minsAgo(iso);
+  if (m < 1) return "방금"; if (m < 60) return `${m}분 전`;
+  const h = Math.round(m / 60); return h < 24 ? `${h}시간 전` : `${Math.round(h / 24)}일 전`;
+};
+const ORDER = { "보유": 0, "소량": 1, "준비중": 2, "미확인": 3, "소진": 4 };
+const LEFT = s => s === "보유" || s === "소량";
+// 체인마다 영화 표기가 조금 달라서 ("엔드게임 앙코르" / "-엔드게임 앙코르") 글자만 비교해 묶음
+const movieKey = t => t.toLowerCase().replace(/[^0-9a-z가-힣]/g, "");
+
+function matches(x) {
+  if (state.chain !== "all" && x.chain !== state.chain) return false;
+  if (state.region && x.region !== state.region) return false;
+  if (state.q) {
+    const hay = `${x.event} ${x.goods} ${x.theater} ${x.region}`.toLowerCase();
+    if (!state.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+function statusOk(s) {
+  if (state.status === "avail") return LEFT(s);
+  if (state.status === "소진") return s === "소진";
+  return true;
+}
+const chip = (x, title) => `<span class="chip ${esc(x.status)}"${title ? ` title="${esc(title)}"` : ""}><i></i>${esc(x.theater)}</span>`;
+
+function renderNow() {
+  if (!DATA.items.length) return `<div class="empty"><b>아직 모인 데이터가 없어요</b>첫 수집이 끝나면 여기에 나타납니다.</div>`;
+  const rows = DATA.items.filter(x => matches(x) && statusOk(x.status));
+  if (!rows.length) return `<div class="empty"><b>찾는 굿즈가 없어요</b>검색어나 필터를 바꿔 보세요.</div>`;
+
+  const movies = new Map();
+  for (const x of rows) {
+    const mk = movieKey(x.event);
+    if (!movies.has(mk)) movies.set(mk, { title: x.event, goods: new Map() });
+    const gk = `${x.chain}|${x.goods}`;
+    const g = movies.get(mk).goods;
+    if (!g.has(gk)) g.set(gk, { chain: x.chain, goods: x.goods, list: [] });
+    g.get(gk).list.push(x);
+  }
+
+  let out = "";
+  for (const mv of movies.values()) {
+    out += `<section class="movie"><h2>${esc(mv.title)}</h2>`;
+    for (const [gk, g] of mv.goods) {
+      const list = g.list.sort((a, b) => ORDER[a.status] - ORDER[b.status] || a.region.localeCompare(b.region, "ko") || a.theater.localeCompare(b.theater, "ko"));
+      const left = list.filter(x => LEFT(x.status)).length;
+      const shown = state.status === "소진" ? list : list.filter(x => x.status !== "소진");
+      const gone = state.status === "소진" ? [] : list.filter(x => x.status === "소진");
+      const link = list.find(x => x.link)?.link;
+      const open = state.open.has(gk);
+      out += `<article class="goods">
+        <div class="g-head">
+          <div class="g-name">${chainTag(g.chain)}<b>${esc(g.goods)}</b></div>
+          <div class="g-meta"><span>남은 곳 <strong>${left}</strong> / ${list.length}</span>
+            ${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">이벤트 보기</a>` : ""}</div>
+        </div>
+        <div class="seats" aria-hidden="true">${list.map(x => `<span class="${esc(x.status)}"></span>`).join("")}</div>
+        ${shown.length ? `<div class="chips">${shown.map(x => chip(x, `${x.region} · ${x.status} (${fmtFull(x.since)}부터)`)).join("")}</div>`
+                       : `<div class="none">모든 극장에서 소진됐어요</div>`}
+        ${gone.length ? (open
+          ? `<div class="chips">${gone.map(x => chip(x, `${x.region} · ${fmtFull(x.since)} 소진`)).join("")}</div>
+             <button class="more" data-toggle="${esc(gk)}">소진된 곳 접기</button>`
+          : `<button class="more" data-toggle="${esc(gk)}">소진된 ${gone.length}곳 보기</button>`) : ""}
+      </article>`;
+    }
+    out += `</section>`;
+  }
+  out += `<div class="legend">
+    <span><i style="background:var(--ok)"></i>보유</span><span><i style="background:var(--low)"></i>소량</span>
+    <span><i style="background:var(--out);opacity:.35"></i>소진</span><span><i style="box-shadow:inset 0 0 0 1px var(--prep)"></i>증정 전</span>
+    <span>좌석 하나가 극장 하나예요</span></div>`;
+  return out;
+}
+
+function renderHist() {
+  let rows = HIST.filter(h => matches(h) && (!state.status || statusOk(h.to))).slice().reverse();
+  if (!rows.length) return `<div class="empty"><b>아직 기록된 변화가 없어요</b>상태가 바뀌면 여기에 쌓입니다.</div>`;
+  const total = rows.length;
+  rows = rows.slice(0, state.histLimit);
+  const tag = s => !s ? `<span class="chip"><i></i>새로 등록</span>`
+    : s === "목록에서 빠짐" ? `<span class="chip"><i></i>목록에서 빠짐</span>`
+    : `<span class="chip ${esc(s)}"><i></i>${esc(s)}</span>`;
+  let out = `<div class="log">`, day = "";
+  for (const h of rows) {
+    const d = fmtDay(h.time);
+    if (d !== day) { out += `<div class="day">${d}</div>`; day = d; }
+    out += `<div class="row"><time>${fmtTime(h.time)}</time>
+      <div class="who"><b>${esc(h.theater)}</b> ${chainTag(h.chain)}<div>${esc(h.event)} ${esc(h.goods)}</div></div>
+      <div class="flow">${tag(h.from)}<span class="arrow" aria-label="에서">›</span>${tag(h.to)}</div></div>`;
+  }
+  out += `</div>`;
+  if (total > rows.length) out += `<button class="pager" id="pager">이전 기록 더 보기 (${total - rows.length}건)</button>`;
+  return out;
+}
+
+function render() {
+  document.querySelectorAll("[data-tab]").forEach(b => b.setAttribute("aria-pressed", b.dataset.tab === state.tab));
+  document.querySelectorAll("[data-chain]").forEach(b => b.setAttribute("aria-pressed", b.dataset.chain === state.chain));
+  $("#view").innerHTML = state.tab === "now" ? renderNow() : renderHist();
+}
+
+function renderMeta() {
+  const fresh = $("#fresh");
+  if (DATA.updated) {
+    $("#updated").textContent = `${fmtFull(DATA.updated)} 확인 (${ago(DATA.updated)})`;
+    fresh.classList.toggle("stale", minsAgo(DATA.updated) > 90);
+  } else {
+    $("#updated").textContent = "아직 수집 전";
+    fresh.classList.add("stale");
+  }
+  const n = [];
+  if (DATA.mode === "sample") n.push(`<div class="notice">지금 보이는 건 연습용 샘플 데이터예요.</div>`);
+  for (const [name, s] of Object.entries(DATA.sources || {})) {
+    if (!s.ok) n.push(`<div class="notice err">${esc(name)} 정보를 새로 받지 못했어요. 마지막으로 받은 내용을 보여주는 중이에요. (${esc(s.error)})</div>`);
+  }
+  $("#notices").innerHTML = n.join("");
+  const regions = [...new Set(DATA.items.map(x => x.region).filter(Boolean))].sort((a, b) => a.localeCompare(b, "ko"));
+  $("#region").innerHTML = `<option value="">모든 지역</option>` + regions.map(r => `<option>${esc(r)}</option>`).join("");
+  $("#region").value = state.region;
+}
+
+async function load() {
+  const bust = `?t=${Date.now()}`;
+  try {
+    const [c, h] = await Promise.all([
+      fetch("data/current.json" + bust).then(r => r.json()),
+      fetch("data/history.json" + bust).then(r => r.ok ? r.json() : []).catch(() => []),
+    ]);
+    DATA = c; HIST = h;
+  } catch (e) {
+    $("#updated").textContent = "데이터 파일을 열지 못했어요";
+  }
+  renderMeta(); render();
+}
+
+document.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { state.tab = b.dataset.tab; render(); });
+document.querySelectorAll("[data-chain]").forEach(b => b.onclick = () => { state.chain = b.dataset.chain; render(); });
+$("#q").oninput = e => { state.q = e.target.value.trim(); render(); };
+$("#region").onchange = e => { state.region = e.target.value; render(); };
+$("#status").onchange = e => { state.status = e.target.value; render(); };
+$("#view").addEventListener("click", e => {
+  const t = e.target.closest("[data-toggle]");
+  if (t) { const k = t.dataset.toggle; state.open.has(k) ? state.open.delete(k) : state.open.add(k); render(); }
+  if (e.target.id === "pager") { state.histLimit += 150; render(); }
+});
+
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>

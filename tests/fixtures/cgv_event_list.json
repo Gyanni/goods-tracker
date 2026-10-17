@@ -1,0 +1,113 @@
+{
+    "statusCode": 0,
+    "statusMessage": "조회 되었습니다.",
+    "data": {
+        "startRow": 10,
+        "listCount": 10,
+        "skipCount": false,
+        "totalCount": 23,
+        "orderBy": "",
+        "list": [
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202609153808",
+                "saprmEvntNm": "[어벤져스-엔드게임 앙코르] 4DX 포스터",
+                "evntOnlnExpoNm": "[어벤져스-엔드게임 앙코르] 4DX 포스터",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "N",
+                "evntStartYmd": "20260923",
+                "evntEndYmd": "20261020"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202609154005",
+                "saprmEvntNm": "[어벤져스-엔드게임 앙코르] SCREENX 포스터",
+                "evntOnlnExpoNm": "[어벤져스-엔드게임 앙코르] SCREENX 포스터",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "N",
+                "evntStartYmd": "20260923",
+                "evntEndYmd": "20261020"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202610135506",
+                "saprmEvntNm": "[웨일폴 고래에 먹힌 남자] TTT",
+                "evntOnlnExpoNm": "[웨일폴 고래에 먹힌 남자] TTT",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "Y",
+                "evntStartYmd": "20261014",
+                "evntEndYmd": "20261110"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202610125403",
+                "saprmEvntNm": "[이방인] 3주차 스토리 포스터 LOVE",
+                "evntOnlnExpoNm": "[이방인] 3주차 스토리 포스터 LOVE",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "N",
+                "evntStartYmd": "20261014",
+                "evntEndYmd": "20261020"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202610125402",
+                "saprmEvntNm": "[인-아이 인 모션] 1주차 해외 오리지널 포스터",
+                "evntOnlnExpoNm": "[인-아이 인 모션] 1주차 해외 오리지널 포스터",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "N",
+                "evntStartYmd": "20261014",
+                "evntEndYmd": "20261020"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202610125401",
+                "saprmEvntNm": "[전자오락수호대] 4DX 포스터",
+                "evntOnlnExpoNm": "[전자오락수호대] 4DX 포스터",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "N",
+                "evntStartYmd": "20261014",
+                "evntEndYmd": "20261110"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202610135409",
+                "saprmEvntNm": "[전자오락수호대] A3 런칭 포스터 (feat. 가스파드)",
+                "evntOnlnExpoNm": "[전자오락수호대] A3 런칭 포스터 (feat. 가스파드)",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "N",
+                "evntStartYmd": "20261014",
+                "evntEndYmd": "20261015"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202610075203",
+                "saprmEvntNm": "[전자오락수호대] SCREENX 포스터",
+                "evntOnlnExpoNm": "[전자오락수호대] SCREENX 포스터",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "N",
+                "evntStartYmd": "20261014",
+                "evntEndYmd": "20261110"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202610135408",
+                "saprmEvntNm": "[전자오락수호대] TTT",
+                "evntOnlnExpoNm": "[전자오락수호대] TTT",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "Y",
+                "evntStartYmd": "20261014",
+                "evntEndYmd": "20261110"
+            },
+            {
+                "coCd": "A420",
+                "saprmEvntNo": "202610125502",
+                "saprmEvntNm": "[침묵의 빛] 1주차 런칭 포스터",
+                "evntOnlnExpoNm": "[침묵의 빛] 1주차 런칭 포스터",
+                "saprmEvntImageUrl": null,
+                "exhsYn": "N",
+                "evntStartYmd": "20261014",
+                "evntEndYmd": "20261020"
+            }
+        ]
+    }
+}

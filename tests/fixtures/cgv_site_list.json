@@ -1,0 +1,6 @@
+{"statusCode":0,"statusMessage":"조회 되었습니다.","data":[
+{"coCd":"A420","spmtlNo":"2026101255034501","siteNo":"0001","siteNm":"CGV 강변","expoSiteNm":"강변","regnGrpCd":"01","regnGrpNm":"서울","sortOseq":1,"fcfsPayYn":"N","inventStatus":"green"},
+{"coCd":"A420","spmtlNo":"2026101255034501","siteNo":"0004","siteNm":"CGV 오리","expoSiteNm":"오리","regnGrpCd":"02","regnGrpNm":"경기","sortOseq":2,"fcfsPayYn":"N","inventStatus":"green"},
+{"coCd":"A420","spmtlNo":"2026101255034501","siteNo":"0005","siteNm":"CGV 서면","expoSiteNm":"서면","regnGrpCd":"07","regnGrpNm":"부산/울산","sortOseq":7,"fcfsPayYn":"N","inventStatus":"green"},
+{"coCd":"A420","spmtlNo":"2026101255034501","siteNo":"0013","siteNm":"CGV 용산아이파크몰","expoSiteNm":"용산아이파크몰","regnGrpCd":"01","regnGrpNm":"서울","sortOseq":1,"fcfsPayYn":"Y","inventStatus":"green"},
+{"coCd":"A420","spmtlNo":"2026101255034501","siteNo":"0040","siteNm":"CGV 압구정","expoSiteNm":"압구정","regnGrpCd":"01","regnGrpNm":"서울","sortOseq":1,"fcfsPayYn":"N","inventStatus":"green"}]}
