@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-18T23:30:59+09:00",
+ "updated": "2026-10-19T02:31:37+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
-   "ok": true,
-   "count": 462,
-   "checked": "2026-10-18T23:30:59+09:00"
+   "ok": false,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.megabox.co.kr', port=443): Max retries exceeded with url: /on/oh/ohe/Event/eventMngDiv.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.megabox.co.kr', port=443) at 0x7fd6ce7db170>, 'Connection to www.megabox.co.kr timed out. (connect timeout=20)'))",
+   "checked": "2026-10-19T02:31:37+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-10-18T23:30:59+09:00"
+   "checked": "2026-10-19T02:31:37+09:00"
   }
  },
  "items": [
