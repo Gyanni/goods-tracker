@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-18T14:46:28+09:00",
+ "updated": "2026-10-18T19:54:59+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 459,
-   "checked": "2026-10-18T14:46:28+09:00"
+   "count": 461,
+   "checked": "2026-10-18T19:54:59+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-10-18T14:46:28+09:00"
+   "checked": "2026-10-18T19:54:59+09:00"
   }
  },
  "items": [
@@ -33,6 +33,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21391",
    "since": "2026-10-17T11:51:11+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "호프",
+   "goods": "돌비 포스터",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21391",
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -190,9 +200,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "목동",
    "region": "서울",
-   "status": "보유",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -200,9 +210,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "상봉",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -300,9 +310,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "백석벨라시타",
    "region": "경기",
-   "status": "보유",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -350,9 +360,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "수원인계",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T14:46:28+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -420,9 +430,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "대전유성",
    "region": "대전/충청/세종",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -460,9 +470,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "청주터미널",
    "region": "대전/충청/세종",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T14:46:28+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -520,9 +530,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "광주상무",
    "region": "광주/전라",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -2016,6 +2026,16 @@
   },
   {
    "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 3주차 주중 현장",
+   "theater": "서면대한",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21414",
+   "since": "2026-10-18T19:54:59+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "트레인스포팅",
    "goods": "프리미어 상영회",
    "theater": "코엑스",
@@ -2760,9 +2780,9 @@
    "goods": "안녕 다시 만나자! 굿즈 상영회",
    "theater": "목동",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21369",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -2840,9 +2860,9 @@
    "goods": "안녕 다시 만나자! 굿즈 상영회",
    "theater": "대전중앙로",
    "region": "대전/충청/세종",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21369",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -4090,9 +4110,9 @@
    "goods": "개봉 3주차 주중 현장",
    "theater": "대구이시아",
    "region": "부산/대구/경상",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21377",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -4130,9 +4150,9 @@
    "goods": "개봉 2주차 현장",
    "theater": "강남",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21371",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -4180,9 +4200,9 @@
    "goods": "개봉 2주차 현장",
    "theater": "목동",
    "region": "서울",
-   "status": "보유",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21371",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -4260,9 +4280,9 @@
    "goods": "개봉 2주차 현장",
    "theater": "금정AK플라자",
    "region": "경기",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21371",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -4310,9 +4330,9 @@
    "goods": "개봉 2주차 현장",
    "theater": "분당",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21371",
-   "since": "2026-10-17T21:08:24+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
@@ -4320,9 +4340,9 @@
    "goods": "개봉 2주차 현장",
    "theater": "수원AK플라자(수원역)",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21371",
-   "since": "2026-10-18T14:46:28+09:00"
+   "since": "2026-10-18T19:54:59+09:00"
   },
   {
    "chain": "메가박스",
