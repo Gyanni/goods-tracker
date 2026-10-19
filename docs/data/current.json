@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-19T09:26:36+09:00",
+ "updated": "2026-10-19T14:14:03+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 422,
-   "checked": "2026-10-19T09:26:36+09:00"
+   "count": 425,
+   "checked": "2026-10-19T14:14:03+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-10-19T09:26:36+09:00"
+   "checked": "2026-10-19T14:14:03+09:00"
   }
  },
  "items": [
@@ -460,9 +460,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "세종나성",
    "region": "대전/충청/세종",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T11:51:11+09:00"
+   "since": "2026-10-19T14:14:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -2016,6 +2016,16 @@
   },
   {
    "chain": "메가박스",
+   "event": "장님 버드나무와 잠자는 여자",
+   "goods": "프리미어 도서 상영회",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21394",
+   "since": "2026-10-19T14:14:03+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "룩백",
    "goods": "개봉 3주차 주중 현장",
    "theater": "송파파크하비오",
@@ -2023,6 +2033,16 @@
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21414",
    "since": "2026-10-18T23:30:59+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 3주차 주중 현장",
+   "theater": "부천스타필드시티",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21414",
+   "since": "2026-10-19T14:14:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -2053,6 +2073,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21414",
    "since": "2026-10-18T19:54:59+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 3주차 주중 현장",
+   "theater": "전주객사",
+   "region": "광주/전라",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21414",
+   "since": "2026-10-19T14:14:03+09:00"
   },
   {
    "chain": "메가박스",
