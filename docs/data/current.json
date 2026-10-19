@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-20T02:43:54+09:00",
+ "updated": "2026-10-20T07:17:08+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
-   "ok": false,
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.megabox.co.kr', port=443): Max retries exceeded with url: /on/oh/ohe/Event/eventMngDiv.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.megabox.co.kr', port=443) at 0x7f19c3244b30>, 'Connection to www.megabox.co.kr timed out. (connect timeout=20)'))",
-   "checked": "2026-10-20T02:43:54+09:00"
+   "ok": true,
+   "count": 440,
+   "checked": "2026-10-20T07:17:08+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-10-20T02:43:54+09:00"
+   "checked": "2026-10-20T07:17:08+09:00"
   }
  },
  "items": [
@@ -430,9 +430,9 @@
    "goods": "데코팩 엽서세트",
    "theater": "대전유성",
    "region": "대전/충청/세종",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T19:54:59+09:00"
+   "since": "2026-10-20T07:17:08+09:00"
   },
   {
    "chain": "메가박스",
@@ -2183,6 +2183,16 @@
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21414",
    "since": "2026-10-19T20:11:24+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 3주차 주중 현장",
+   "theater": "대전유성",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21414",
+   "since": "2026-10-20T07:17:08+09:00"
   },
   {
    "chain": "메가박스",
