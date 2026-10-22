@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-22T09:37:18+09:00",
+ "updated": "2026-10-22T15:01:51+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 321,
-   "checked": "2026-10-22T09:37:18+09:00"
+   "count": 324,
+   "checked": "2026-10-22T15:01:51+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-10-22T09:37:18+09:00"
+   "checked": "2026-10-22T15:01:51+09:00"
   }
  },
  "items": [
@@ -243,6 +243,36 @@
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21447",
    "since": "2026-10-21T10:57:50+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "MEGA | MX4D 포스터",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21441",
+   "since": "2026-10-22T15:01:51+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "MEGA | MX4D 포스터",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21441",
+   "since": "2026-10-22T15:01:51+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "MEGA | MX4D 포스터",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21441",
+   "since": "2026-10-22T15:01:51+09:00"
   },
   {
    "chain": "메가박스",
@@ -870,9 +900,9 @@
    "goods": "아크릴 키링 굿즈 상영회",
    "theater": "코엑스",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21429",
-   "since": "2026-10-19T20:11:24+09:00"
+   "since": "2026-10-22T15:01:51+09:00"
   },
   {
    "chain": "메가박스",
@@ -880,9 +910,9 @@
    "goods": "프리미어 도서 상영회",
    "theater": "코엑스",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21394",
-   "since": "2026-10-19T14:14:03+09:00"
+   "since": "2026-10-22T15:01:51+09:00"
   },
   {
    "chain": "메가박스",
@@ -1330,9 +1360,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21440",
-   "since": "2026-10-21T01:53:15+09:00"
+   "since": "2026-10-22T15:01:51+09:00"
   },
   {
    "chain": "메가박스",
