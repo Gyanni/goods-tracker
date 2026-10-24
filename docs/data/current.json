@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-25T04:25:25+09:00",
+ "updated": "2026-10-25T06:50:36+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
    "count": 487,
-   "checked": "2026-10-25T04:25:25+09:00"
+   "checked": "2026-10-25T06:50:36+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-10-25T04:25:25+09:00"
+   "checked": "2026-10-25T06:50:36+09:00"
   }
  },
  "items": [
