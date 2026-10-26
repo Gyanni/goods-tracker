@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-26T10:37:05+09:00",
+ "updated": "2026-10-26T15:57:03+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 484,
-   "checked": "2026-10-26T10:37:05+09:00"
+   "count": 498,
+   "checked": "2026-10-26T15:57:03+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-10-26T10:37:05+09:00"
+   "checked": "2026-10-26T15:57:03+09:00"
   }
  },
  "items": [
@@ -278,6 +278,16 @@
    "chain": "메가박스",
    "event": "쿵푸 허슬",
    "goods": "오리지널 티켓북 포스터",
+   "theater": "구미강동",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21447",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "쿵푸 허슬",
+   "goods": "오리지널 티켓북 포스터",
    "theater": "대구이시아",
    "region": "부산/대구/경상",
    "status": "보유",
@@ -293,6 +303,26 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21447",
    "since": "2026-10-24T13:26:19+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "쿵푸 허슬",
+   "goods": "오리지널 티켓북 포스터",
+   "theater": "양산증산",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21447",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "쿵푸 허슬",
+   "goods": "오리지널 티켓북 포스터",
+   "theater": "춘천석사",
+   "region": "강원",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21447",
+   "since": "2026-10-26T15:57:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -908,11 +938,121 @@
    "chain": "메가박스",
    "event": "룩백",
    "goods": "개봉 4주차 주중 현장",
+   "theater": "구의이스트폴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "군자",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "화곡",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "분당",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "인천학익(시티오씨엘)",
+   "region": "인천",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "구미강동",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "대구이시아",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
    "theater": "대구프리미엄만경관",
    "region": "부산/대구/경상",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
    "since": "2026-10-26T10:37:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "양산증산",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "울산",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "창원",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주중 현장",
+   "theater": "춘천석사",
+   "region": "강원",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
+   "since": "2026-10-26T15:57:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -940,9 +1080,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21466",
-   "since": "2026-10-25T14:12:40+09:00"
+   "since": "2026-10-26T15:57:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -1570,9 +1710,9 @@
    "goods": "개봉 3주차 주말 현장",
    "theater": "상암월드컵경기장",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21457",
-   "since": "2026-10-23T21:50:20+09:00"
+   "since": "2026-10-26T15:57:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -1800,9 +1940,9 @@
    "goods": "개봉 3주차 주말 현장",
    "theater": "파주운정",
    "region": "경기",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21457",
-   "since": "2026-10-23T21:50:20+09:00"
+   "since": "2026-10-26T15:57:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -1950,9 +2090,9 @@
    "goods": "개봉 3주차 주말 현장",
    "theater": "대구프리미엄만경관",
    "region": "부산/대구/경상",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21457",
-   "since": "2026-10-23T21:50:20+09:00"
+   "since": "2026-10-26T15:57:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -4440,9 +4580,9 @@
    "goods": "개봉 3주차 주중 현장",
    "theater": "상암월드컵경기장",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21414",
-   "since": "2026-10-19T20:11:24+09:00"
+   "since": "2026-10-26T15:57:03+09:00"
   },
   {
    "chain": "메가박스",
