@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-30T17:31:16+09:00",
+ "updated": "2026-10-31T00:17:15+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 346,
-   "checked": "2026-10-30T17:31:16+09:00"
+   "count": 376,
+   "checked": "2026-10-31T00:17:15+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-10-30T17:31:16+09:00"
+   "checked": "2026-10-31T00:17:15+09:00"
   }
  },
  "items": [
@@ -576,406 +576,6 @@
   },
   {
    "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "강남",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-23T16:22:38+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "구의이스트폴",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T14:46:28+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "더부티크목동현대백화점",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-20T21:03:06+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "마곡",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T23:30:59+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "목동",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T19:54:59+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "상봉",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-19T20:11:24+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "상암월드컵경기장",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T21:08:24+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "센트럴",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-24T13:26:19+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "코엑스",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T21:08:24+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "홍대(아니메)",
-   "region": "서울",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T16:42:14+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "고양스타필드",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-24T22:16:38+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "광명AK플라자",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-24T18:04:27+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "금정AK플라자",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T14:46:28+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "김포한강신도시",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-24T18:04:27+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "남양주현대아울렛스페이스원",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-24T22:16:38+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "백석벨라시타",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T19:54:59+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "부천스타필드시티",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T23:30:59+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "분당",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-23T02:04:16+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "수원AK플라자(수원역)",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T14:46:28+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "수원스타필드",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-24T22:16:38+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "수원인계",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T19:54:59+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "안성스타필드",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-25T19:05:14+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "킨텍스",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-21T16:29:14+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "하남스타필드",
-   "region": "경기",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-21T16:29:14+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "송도(트리플스트리트)",
-   "region": "인천",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T14:46:28+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "인천학익(시티오씨엘)",
-   "region": "인천",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T14:46:28+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "대전신세계아트앤사이언스",
-   "region": "대전/충청/세종",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-28T00:59:29+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "대전유성",
-   "region": "대전/충청/세종",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-20T07:17:08+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "대전중앙로",
-   "region": "대전/충청/세종",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T16:42:14+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "대전현대프리미엄아울렛",
-   "region": "대전/충청/세종",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-27T13:52:21+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "세종나성",
-   "region": "대전/충청/세종",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-21T22:10:46+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "청주터미널",
-   "region": "대전/충청/세종",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T19:54:59+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "구미강동",
-   "region": "부산/대구/경상",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-23T21:50:20+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "대구신세계(동대구)",
-   "region": "부산/대구/경상",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-18T14:46:28+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "대구이시아",
-   "region": "부산/대구/경상",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-24T18:04:27+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "사상",
-   "region": "부산/대구/경상",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-17T16:42:14+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "양산증산",
-   "region": "부산/대구/경상",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-20T21:03:06+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "광주상무",
-   "region": "광주/전라",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-21T01:53:15+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "전주객사",
-   "region": "광주/전라",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-21T10:57:50+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "룩백",
-   "goods": "데코팩 엽서세트",
-   "theater": "춘천석사",
-   "region": "강원",
-   "status": "소진",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21360",
-   "since": "2026-10-20T15:31:48+09:00"
-  },
-  {
-   "chain": "메가박스",
    "event": "모자 쓴 고양이",
    "goods": "프리미어 상영회",
    "theater": "목동",
@@ -996,6 +596,116 @@
   },
   {
    "chain": "메가박스",
+   "event": "차오",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "마곡",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21529",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "차오",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21529",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "차오",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21529",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "차오",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "고양스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21529",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "차오",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "광명AK플라자",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21529",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "차오",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21529",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "차오",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21529",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "차오",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21529",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "타짜: 벨제붑의 노래",
+   "goods": "개봉 6주차 주말 현장",
+   "theater": "더부티크목동현대백화점",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21528",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "타짜: 벨제붑의 노래",
+   "goods": "개봉 6주차 주말 현장",
+   "theater": "상봉",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21528",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "타짜: 벨제붑의 노래",
+   "goods": "개봉 6주차 주말 현장",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21528",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "타짜: 벨제붑의 노래",
    "goods": "개봉 6주차 주말 현장",
    "theater": "코엑스",
@@ -1006,6 +716,46 @@
   },
   {
    "chain": "메가박스",
+   "event": "타짜: 벨제붑의 노래",
+   "goods": "개봉 6주차 주말 현장",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21528",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "개봉 3주차 주말 현장",
+   "theater": "구의이스트폴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "개봉 3주차 주말 현장",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "개봉 3주차 주말 현장",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "전자오락수호대",
    "goods": "개봉 3주차 주말 현장",
    "theater": "코엑스",
@@ -1018,11 +768,61 @@
    "chain": "메가박스",
    "event": "전자오락수호대",
    "goods": "개봉 3주차 주말 현장",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "개봉 3주차 주말 현장",
    "theater": "수원AK플라자(수원역)",
    "region": "경기",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
    "since": "2026-10-30T17:31:16+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "개봉 3주차 주말 현장",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "개봉 3주차 주말 현장",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "개봉 3주차 주말 현장",
+   "theater": "청주터미널",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "개봉 3주차 주말 현장",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21527",
+   "since": "2026-10-31T00:17:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -1038,11 +838,91 @@
    "chain": "메가박스",
    "event": "극장판 치이카와: 인어 섬의 비밀",
    "goods": "개봉 5주차 주말 현장",
+   "theater": "구의이스트폴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "더부티크목동현대백화점",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "마곡",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "상봉",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "센트럴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
    "theater": "코엑스",
    "region": "서울",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
    "since": "2026-10-30T17:31:16+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -1058,11 +938,41 @@
    "chain": "메가박스",
    "event": "극장판 치이카와: 인어 섬의 비밀",
    "goods": "개봉 5주차 주말 현장",
+   "theater": "광명AK플라자",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "금정AK플라자",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
    "theater": "김포한강신도시",
    "region": "경기",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
    "since": "2026-10-30T17:31:16+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "남양주현대아울렛스페이스원",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -1088,11 +998,71 @@
    "chain": "메가박스",
    "event": "극장판 치이카와: 인어 섬의 비밀",
    "goods": "개봉 5주차 주말 현장",
+   "theater": "수원스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "수원인계",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "안성스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
    "theater": "인천학익(시티오씨엘)",
    "region": "인천",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
-   "since": "2026-10-30T17:31:16+09:00"
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "대전신세계아트앤사이언스",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -1108,6 +1078,16 @@
    "chain": "메가박스",
    "event": "극장판 치이카와: 인어 섬의 비밀",
    "goods": "개봉 5주차 주말 현장",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
    "theater": "대전현대프리미엄아울렛",
    "region": "대전/충청/세종",
    "status": "보유",
@@ -1118,11 +1098,61 @@
    "chain": "메가박스",
    "event": "극장판 치이카와: 인어 섬의 비밀",
    "goods": "개봉 5주차 주말 현장",
+   "theater": "세종나성",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "청주터미널",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "대구이시아",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
    "theater": "사상",
    "region": "부산/대구/경상",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
    "since": "2026-10-30T17:31:16+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "양산증산",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21520",
+   "since": "2026-10-31T00:17:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -1148,6 +1178,46 @@
    "chain": "메가박스",
    "event": "하트 오브 비스트",
    "goods": "개봉 1주차 주말 현장",
+   "theater": "구의이스트폴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "센트럴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
    "theater": "코엑스",
    "region": "서울",
    "status": "보유",
@@ -1158,11 +1228,141 @@
    "chain": "메가박스",
    "event": "하트 오브 비스트",
    "goods": "개봉 1주차 주말 현장",
+   "theater": "고양스타필드",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
    "theater": "수원AK플라자(수원역)",
    "region": "경기",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
    "since": "2026-10-30T17:31:16+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "하트 오브 비스트",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "강남",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21518",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "구의이스트폴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21518",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "마곡",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21518",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21518",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21518",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21518",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "대전현대프리미엄아울렛",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21518",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "청주터미널",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21518",
+   "since": "2026-10-31T00:17:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -1188,11 +1388,61 @@
    "chain": "메가박스",
    "event": "룩백",
    "goods": "개봉 4주차 주말 현장",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
+   "theater": "상봉",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
+   "theater": "센트럴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
    "theater": "코엑스",
    "region": "서울",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
    "since": "2026-10-30T17:31:16+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -1208,11 +1458,61 @@
    "chain": "메가박스",
    "event": "룩백",
    "goods": "개봉 4주차 주말 현장",
+   "theater": "남양주현대아울렛스페이스원",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
    "theater": "수원AK플라자(수원역)",
    "region": "경기",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
    "since": "2026-10-30T17:31:16+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
+   "theater": "청주터미널",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 4주차 주말 현장",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
+   "since": "2026-10-31T00:17:15+09:00"
   },
   {
    "chain": "메가박스",
