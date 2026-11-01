@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-01T22:11:21+09:00",
+ "updated": "2026-11-02T03:31:01+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 385,
-   "checked": "2026-11-01T22:11:21+09:00"
+   "count": 372,
+   "checked": "2026-11-02T03:31:01+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-01T22:11:21+09:00"
+   "checked": "2026-11-02T03:31:01+09:00"
   }
  },
  "items": [
@@ -576,26 +576,6 @@
   },
   {
    "chain": "메가박스",
-   "event": "모자 쓴 고양이",
-   "goods": "프리미어 상영회",
-   "theater": "목동",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21503",
-   "since": "2026-10-28T22:28:45+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "모자 쓴 고양이",
-   "goods": "프리미어 상영회",
-   "theater": "고양스타필드",
-   "region": "경기",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21503",
-   "since": "2026-10-30T01:52:03+09:00"
-  },
-  {
-   "chain": "메가박스",
    "event": "차오",
    "goods": "개봉 2주차 주말 현장",
    "theater": "마곡",
@@ -1260,9 +1240,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "상암월드컵경기장",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
-   "since": "2026-10-31T00:17:15+09:00"
+   "since": "2026-11-02T03:31:01+09:00"
   },
   {
    "chain": "메가박스",
@@ -1613,16 +1593,6 @@
    "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
    "since": "2026-10-31T20:10:02+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "와일드 호스 나인",
-   "goods": "프리미어 상영회",
-   "theater": "코엑스",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21484",
-   "since": "2026-10-30T17:31:16+09:00"
   },
   {
    "chain": "메가박스",
@@ -3380,9 +3350,9 @@
    "goods": "개봉 4주차 주중 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
-   "since": "2026-10-27T19:25:20+09:00"
+   "since": "2026-11-02T03:31:01+09:00"
   },
   {
    "chain": "메가박스",
@@ -3763,106 +3733,6 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
    "since": "2026-10-27T19:25:20+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "구의이스트폴",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-20T15:31:48+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "더부티크목동현대백화점",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-19T20:11:24+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "상암월드컵경기장",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-19T20:11:24+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "센트럴",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-19T20:11:24+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "코엑스",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-20T21:03:06+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "분당",
-   "region": "경기",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-21T22:10:46+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "수원스타필드",
-   "region": "경기",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-20T21:03:06+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "하남스타필드",
-   "region": "경기",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-20T21:03:06+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "대전신세계아트앤사이언스",
-   "region": "대전/충청/세종",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-19T20:11:24+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 워렌 부인의 직업 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "대구이시아",
-   "region": "부산/대구/경상",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21425",
-   "since": "2026-10-19T20:11:24+09:00"
   }
  ]
 }
