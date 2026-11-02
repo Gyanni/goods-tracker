@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-02T18:20:32+09:00",
+ "updated": "2026-11-03T04:43:57+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 377,
-   "checked": "2026-11-02T18:20:32+09:00"
+   "count": 384,
+   "checked": "2026-11-03T04:43:57+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-02T18:20:32+09:00"
+   "checked": "2026-11-03T04:43:57+09:00"
   }
  },
  "items": [
@@ -608,6 +608,16 @@
    "chain": "메가박스",
    "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
    "goods": "굿즈",
+   "theater": "더부티크목동현대백화점",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
+   "since": "2026-11-03T04:43:57+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
+   "goods": "굿즈",
    "theater": "센트럴",
    "region": "서울",
    "status": "보유",
@@ -618,11 +628,71 @@
    "chain": "메가박스",
    "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
    "goods": "굿즈",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
+   "since": "2026-11-03T04:43:57+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
+   "goods": "굿즈",
+   "theater": "분당",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
+   "since": "2026-11-03T04:43:57+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
+   "goods": "굿즈",
+   "theater": "수원스타필드",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
+   "since": "2026-11-03T04:43:57+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
+   "goods": "굿즈",
    "theater": "대전신세계아트앤사이언스",
    "region": "대전/충청/세종",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
    "since": "2026-11-02T18:20:32+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
+   "goods": "굿즈",
+   "theater": "대구이시아",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
+   "since": "2026-11-03T04:43:57+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "최종면접",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
+   "since": "2026-11-03T04:43:57+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "최종면접",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "전주객사",
+   "region": "광주/전라",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -1260,9 +1330,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "강남",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21519",
-   "since": "2026-10-30T17:31:16+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -1540,9 +1610,9 @@
    "goods": "개봉 4주차 주말 현장",
    "theater": "홍대(아니메)",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
-   "since": "2026-10-31T00:17:15+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -1550,9 +1620,9 @@
    "goods": "개봉 4주차 주말 현장",
    "theater": "고양스타필드",
    "region": "경기",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
-   "since": "2026-10-30T17:31:16+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -1590,9 +1660,9 @@
    "goods": "개봉 4주차 주말 현장",
    "theater": "수원AK플라자(수원역)",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
-   "since": "2026-11-01T22:11:21+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -1640,9 +1710,9 @@
    "goods": "개봉 4주차 주말 현장",
    "theater": "사상",
    "region": "부산/대구/경상",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21515",
-   "since": "2026-10-31T20:10:02+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -2800,9 +2870,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21491",
-   "since": "2026-11-01T22:11:21+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -3040,9 +3110,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "수원AK플라자(수원역)",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21490",
-   "since": "2026-10-31T20:10:02+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -3410,9 +3480,9 @@
    "goods": "개봉 4주차 주중 현장",
    "theater": "홍대(아니메)",
    "region": "서울",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
-   "since": "2026-10-31T20:10:02+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -3760,9 +3830,9 @@
    "goods": "개봉 4주차 주중 현장",
    "theater": "전주객사",
    "region": "광주/전라",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21478",
-   "since": "2026-10-31T20:10:02+09:00"
+   "since": "2026-11-03T04:43:57+09:00"
   },
   {
    "chain": "메가박스",
