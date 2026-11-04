@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-04T12:10:49+09:00",
+ "updated": "2026-11-04T20:29:39+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 185,
-   "checked": "2026-11-04T12:10:49+09:00"
+   "count": 195,
+   "checked": "2026-11-04T20:29:39+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-04T12:10:49+09:00"
+   "checked": "2026-11-04T20:29:39+09:00"
   }
  },
  "items": [
@@ -20,9 +20,9 @@
    "goods": "오리지널 티켓북 포스터",
    "theater": "강남",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21447",
-   "since": "2026-10-28T15:13:14+09:00"
+   "since": "2026-11-04T20:29:39+09:00"
   },
   {
    "chain": "메가박스",
@@ -426,6 +426,46 @@
   },
   {
    "chain": "메가박스",
+   "event": "수능, 출제의 비밀",
+   "goods": "수능 응원 기원 선물 세트 굿즈 상영회",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21561",
+   "since": "2026-11-04T20:29:39+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "<스트레인저 – 무황인담 프리미어 상영회",
+   "goods": "굿즈",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21562",
+   "since": "2026-11-04T20:29:39+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "<스트레인저 – 무황인담 프리미어 상영회",
+   "goods": "굿즈",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21562",
+   "since": "2026-11-04T20:29:39+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "<스트레인저 – 무황인담 프리미어 상영회",
+   "goods": "굿즈",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21562",
+   "since": "2026-11-04T20:29:39+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "레위기",
    "goods": "포토부스 굿즈 상영회",
    "theater": "수원AK플라자(수원역)",
@@ -483,6 +523,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21532",
    "since": "2026-11-02T18:20:32+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "폴2: 데드포인트",
+   "goods": "프리미어 상영회",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21532",
+   "since": "2026-11-04T20:29:39+09:00"
   },
   {
    "chain": "메가박스",
@@ -1118,6 +1168,16 @@
    "chain": "메가박스",
    "event": "극장판 치이카와: 인어 섬의 비밀",
    "goods": "개봉 6주차 주중 현장",
+   "theater": "백석벨라시타",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21549",
+   "since": "2026-11-04T20:29:39+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 6주차 주중 현장",
    "theater": "부천스타필드시티",
    "region": "경기",
    "status": "보유",
@@ -1313,6 +1373,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21549",
    "since": "2026-11-04T02:44:21+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 6주차 주중 현장",
+   "theater": "양산증산",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21549",
+   "since": "2026-11-04T20:29:39+09:00"
   },
   {
    "chain": "메가박스",
@@ -1518,6 +1588,16 @@
    "chain": "메가박스",
    "event": "최종면접",
    "goods": "개봉 1주차 주중 현장",
+   "theater": "화곡",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
+   "since": "2026-11-04T20:29:39+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "최종면접",
+   "goods": "개봉 1주차 주중 현장",
    "theater": "고양스타필드",
    "region": "경기",
    "status": "보유",
@@ -1568,11 +1648,21 @@
    "chain": "메가박스",
    "event": "최종면접",
    "goods": "개봉 1주차 주중 현장",
+   "theater": "백석벨라시타",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
+   "since": "2026-11-04T20:29:39+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "최종면접",
+   "goods": "개봉 1주차 주중 현장",
    "theater": "부천스타필드시티",
    "region": "경기",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
-   "since": "2026-11-04T02:44:21+09:00"
+   "since": "2026-11-04T20:29:39+09:00"
   },
   {
    "chain": "메가박스",
@@ -1770,9 +1860,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "대구세븐밸리(칠곡)",
    "region": "부산/대구/경상",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
-   "since": "2026-11-03T18:58:30+09:00"
+   "since": "2026-11-04T20:29:39+09:00"
   },
   {
    "chain": "메가박스",
@@ -1823,6 +1913,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
    "since": "2026-11-04T02:44:21+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "최종면접",
+   "goods": "개봉 1주차 주중 현장",
+   "theater": "양산증산",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
+   "since": "2026-11-04T20:29:39+09:00"
   },
   {
    "chain": "메가박스",
