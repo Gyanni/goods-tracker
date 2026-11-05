@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-05T16:18:39+09:00",
+ "updated": "2026-11-06T00:45:57+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
-   "ok": false,
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.megabox.co.kr', port=443): Max retries exceeded with url: /on/oh/ohe/Event/eventMngDiv.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.megabox.co.kr', port=443) at 0x7b074bd2f6b0>, 'Connection to www.megabox.co.kr timed out. (connect timeout=20)'))",
-   "checked": "2026-11-05T16:18:39+09:00"
+   "ok": true,
+   "count": 199,
+   "checked": "2026-11-06T00:45:57+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-05T16:18:39+09:00"
+   "checked": "2026-11-06T00:45:57+09:00"
   }
  },
  "items": [
@@ -436,6 +436,16 @@
   },
   {
    "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T00:45:57+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "<스트레인저 – 무황인담 프리미어 상영회",
    "goods": "굿즈",
    "theater": "목동",
@@ -466,6 +476,26 @@
   },
   {
    "chain": "메가박스",
+   "event": "<스트레인저 – 무황인담 프리미어 상영회",
+   "goods": "굿즈",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21562",
+   "since": "2026-11-06T00:45:57+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "레위기",
+   "goods": "포토부스 굿즈 상영회",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21560",
+   "since": "2026-11-06T00:45:57+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "레위기",
    "goods": "포토부스 굿즈 상영회",
    "theater": "수원AK플라자(수원역)",
@@ -493,6 +523,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21555",
    "since": "2026-11-04T02:44:21+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "여전히 찬란하게",
+   "goods": "X 희움 의식 팔찌 굿즈 상영회",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21555",
+   "since": "2026-11-06T00:45:57+09:00"
   },
   {
    "chain": "메가박스",
@@ -550,9 +590,9 @@
    "goods": "타투 스티커 굿즈 상영회",
    "theater": "코엑스",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21531",
-   "since": "2026-11-02T10:46:30+09:00"
+   "since": "2026-11-06T00:45:57+09:00"
   },
   {
    "chain": "메가박스",
