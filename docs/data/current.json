@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-05T03:50:07+09:00",
+ "updated": "2026-11-05T09:18:26+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
-   "ok": false,
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.megabox.co.kr', port=443): Max retries exceeded with url: /on/oh/ohe/Event/eventMngDiv.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.megabox.co.kr', port=443) at 0x7389ebf94b30>, 'Connection to www.megabox.co.kr timed out. (connect timeout=20)'))",
-   "checked": "2026-11-05T03:50:07+09:00"
+   "ok": true,
+   "count": 195,
+   "checked": "2026-11-05T09:18:26+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-05T03:50:07+09:00"
+   "checked": "2026-11-05T09:18:26+09:00"
   }
  },
  "items": [
@@ -1560,9 +1560,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "송파파크하비오",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21542",
-   "since": "2026-11-03T18:58:30+09:00"
+   "since": "2026-11-05T09:18:26+09:00"
   },
   {
    "chain": "메가박스",
