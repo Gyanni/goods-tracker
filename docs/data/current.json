@@ -1,19 +1,489 @@
 {
- "updated": "2026-11-06T11:17:00+09:00",
+ "updated": "2026-11-06T18:47:17+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 207,
-   "checked": "2026-11-06T11:17:00+09:00"
+   "count": 275,
+   "checked": "2026-11-06T18:47:17+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-06T11:17:00+09:00"
+   "checked": "2026-11-06T18:47:17+09:00"
   }
  },
  "items": [
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "강남",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "강동",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "구의이스트폴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "상봉",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "센트럴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "고양스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "광명소하",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "금정AK플라자",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "동탄역",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "별내",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "분당",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "수원",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "의정부민락",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "평내호평역(구.남양주)",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "인천논현",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "대전신세계아트앤사이언스",
+   "region": "대전/충청/세종",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "대전현대프리미엄아울렛",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "세종나성",
+   "region": "대전/충청/세종",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "청주터미널",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "충주연수",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "경산하양",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "구미강동",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "대구세븐밸리(칠곡)",
+   "region": "부산/대구/경상",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "대구이시아",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "대구프리미엄만경관",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "덕천",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "마산(경남대)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "부산극장",
+   "region": "부산/대구/경상",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "사상",
+   "region": "부산/대구/경상",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "삼천포",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "서면대한",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "양산증산",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "울산",
+   "region": "부산/대구/경상",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "창원",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "광주상무",
+   "region": "광주/전라",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "순천",
+   "region": "광주/전라",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "첨단",
+   "region": "광주/전라",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "원주혁신",
+   "region": "강원",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "제주아라",
+   "region": "제주",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
   {
    "chain": "메가박스",
    "event": "쿵푸 허슬",
@@ -426,6 +896,126 @@
   },
   {
    "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "구의이스트폴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "고양스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "남양주현대아울렛스페이스원",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "수원스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "전자오락수호대",
+   "goods": "아크릴 키링 앵콜 굿즈 상영회",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21578",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "수능, 출제의 비밀",
    "goods": "수능 응원 기원 선물 세트 굿즈 상영회",
    "theater": "코엑스",
@@ -458,6 +1048,26 @@
    "chain": "메가박스",
    "event": "룩백",
    "goods": "개봉 5주차 주말 현장",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "상봉",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
    "theater": "상암월드컵경기장",
    "region": "서울",
    "status": "보유",
@@ -468,11 +1078,31 @@
    "chain": "메가박스",
    "event": "룩백",
    "goods": "개봉 5주차 주말 현장",
+   "theater": "센트럴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
-   "since": "2026-11-06T11:17:00+09:00"
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T18:47:17+09:00"
   },
   {
    "chain": "메가박스",
@@ -488,11 +1118,41 @@
    "chain": "메가박스",
    "event": "룩백",
    "goods": "개봉 5주차 주말 현장",
+   "theater": "금정AK플라자",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
    "theater": "김포한강신도시",
    "region": "경기",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
    "since": "2026-11-06T11:17:00+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "남양주현대아울렛스페이스원",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "분당",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T18:47:17+09:00"
   },
   {
    "chain": "메가박스",
@@ -510,9 +1170,9 @@
    "goods": "개봉 5주차 주말 현장",
    "theater": "송도(트리플스트리트)",
    "region": "인천",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
-   "since": "2026-11-06T11:17:00+09:00"
+   "since": "2026-11-06T18:47:17+09:00"
   },
   {
    "chain": "메가박스",
@@ -523,6 +1183,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
    "since": "2026-11-06T00:45:57+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 5주차 주말 현장",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
+   "since": "2026-11-06T18:47:17+09:00"
   },
   {
    "chain": "메가박스",
@@ -590,9 +1260,9 @@
    "goods": "X 희움 의식 팔찌 굿즈 상영회",
    "theater": "구의이스트폴",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21555",
-   "since": "2026-11-03T18:58:30+09:00"
+   "since": "2026-11-06T18:47:17+09:00"
   },
   {
    "chain": "메가박스",
@@ -633,6 +1303,16 @@
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21532",
    "since": "2026-11-02T18:20:32+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "폴2: 데드포인트",
+   "goods": "프리미어 상영회",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21532",
+   "since": "2026-11-06T18:47:17+09:00"
   },
   {
    "chain": "메가박스",
@@ -730,9 +1410,9 @@
    "goods": "굿즈",
    "theater": "분당",
    "region": "경기",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-03T04:43:57+09:00"
+   "since": "2026-11-06T18:47:17+09:00"
   },
   {
    "chain": "메가박스",
