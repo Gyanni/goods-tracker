@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-08T14:51:26+09:00",
+ "updated": "2026-11-08T22:13:54+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 294,
-   "checked": "2026-11-08T14:51:26+09:00"
+   "count": 295,
+   "checked": "2026-11-08T22:13:54+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-08T14:51:26+09:00"
+   "checked": "2026-11-08T22:13:54+09:00"
   }
  },
  "items": [
@@ -333,6 +333,16 @@
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
    "since": "2026-11-07T02:25:18+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "공주",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-08T22:13:54+09:00"
   },
   {
    "chain": "메가박스",
@@ -1250,9 +1260,9 @@
    "goods": "개봉 5주차 주말 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
-   "since": "2026-11-06T18:47:17+09:00"
+   "since": "2026-11-08T22:13:54+09:00"
   },
   {
    "chain": "메가박스",
@@ -1260,9 +1270,9 @@
    "goods": "개봉 5주차 주말 현장",
    "theater": "홍대(아니메)",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
-   "since": "2026-11-06T18:47:17+09:00"
+   "since": "2026-11-08T22:13:54+09:00"
   },
   {
    "chain": "메가박스",
@@ -1310,9 +1320,9 @@
    "goods": "개봉 5주차 주말 현장",
    "theater": "분당",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21569",
-   "since": "2026-11-07T18:11:27+09:00"
+   "since": "2026-11-08T22:13:54+09:00"
   },
   {
    "chain": "메가박스",
@@ -1650,9 +1660,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "목동",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21558",
-   "since": "2026-11-03T18:58:30+09:00"
+   "since": "2026-11-08T22:13:54+09:00"
   },
   {
    "chain": "메가박스",
@@ -1660,9 +1670,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "상암월드컵경기장",
    "region": "서울",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21558",
-   "since": "2026-11-07T18:11:27+09:00"
+   "since": "2026-11-08T22:13:54+09:00"
   },
   {
    "chain": "메가박스",
@@ -1670,9 +1680,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21558",
-   "since": "2026-11-07T18:11:27+09:00"
+   "since": "2026-11-08T22:13:54+09:00"
   },
   {
    "chain": "메가박스",
@@ -1680,9 +1690,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "수원AK플라자(수원역)",
    "region": "경기",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21558",
-   "since": "2026-11-03T18:58:30+09:00"
+   "since": "2026-11-08T22:13:54+09:00"
   },
   {
    "chain": "메가박스",
