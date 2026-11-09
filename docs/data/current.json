@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-09T07:25:29+09:00",
+ "updated": "2026-11-09T10:55:19+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 277,
-   "checked": "2026-11-09T07:25:29+09:00"
+   "count": 279,
+   "checked": "2026-11-09T10:55:19+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-09T07:25:29+09:00"
+   "checked": "2026-11-09T10:55:19+09:00"
   }
  },
  "items": [
@@ -348,6 +348,16 @@
    "chain": "메가박스",
    "event": "마더 메리",
    "goods": "오리지널 티켓 No.190",
+   "theater": "논산",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-09T10:55:19+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
    "theater": "대전신세계아트앤사이언스",
    "region": "대전/충청/세종",
    "status": "보유",
@@ -643,6 +653,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
    "since": "2026-11-06T18:47:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "오리지널 티켓 No.190",
+   "theater": "춘천석사",
+   "region": "강원",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
+   "since": "2026-11-09T10:55:19+09:00"
   },
   {
    "chain": "메가박스",
