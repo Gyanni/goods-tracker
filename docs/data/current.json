@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-14T06:55:43+09:00",
+ "updated": "2026-11-14T11:16:30+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 204,
-   "checked": "2026-11-14T06:55:43+09:00"
+   "count": 210,
+   "checked": "2026-11-14T11:16:30+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-14T06:55:43+09:00"
+   "checked": "2026-11-14T11:16:30+09:00"
   }
  },
  "items": [
@@ -48,11 +48,31 @@
    "chain": "메가박스",
    "event": "헝거게임 50번째 추첨의 날",
    "goods": "오리지널 티켓 No.191",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-14T11:16:30+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
    "theater": "시흥정왕",
    "region": "경기",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
    "since": "2026-11-14T00:39:41+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
+   "theater": "용인테크노밸리",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-14T11:16:30+09:00"
   },
   {
    "chain": "메가박스",
@@ -133,6 +153,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
    "since": "2026-11-14T00:39:41+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
+   "theater": "원주혁신",
+   "region": "강원",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-14T11:16:30+09:00"
   },
   {
    "chain": "메가박스",
@@ -1438,6 +1468,16 @@
    "chain": "메가박스",
    "event": "극장판 치이카와: 인어 섬의 비밀",
    "goods": "개봉 7주차 주말 현장",
+   "theater": "남양주현대아울렛스페이스원",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21642",
+   "since": "2026-11-14T11:16:30+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "극장판 치이카와: 인어 섬의 비밀",
+   "goods": "개봉 7주차 주말 현장",
    "theater": "부천스타필드시티",
    "region": "경기",
    "status": "보유",
@@ -1688,6 +1728,16 @@
    "chain": "메가박스",
    "event": "스트레인저 - 무황인담",
    "goods": "개봉 1주차 주말 현장",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21639",
+   "since": "2026-11-14T11:16:30+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "스트레인저 - 무황인담",
+   "goods": "개봉 1주차 주말 현장",
    "theater": "코엑스",
    "region": "서울",
    "status": "보유",
@@ -1753,6 +1803,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21639",
    "since": "2026-11-14T00:39:41+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "스트레인저 - 무황인담",
+   "goods": "개봉 1주차 주말 현장",
+   "theater": "수원인계",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21639",
+   "since": "2026-11-14T11:16:30+09:00"
   },
   {
    "chain": "메가박스",
