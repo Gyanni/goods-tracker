@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-15T16:46:15+09:00",
+ "updated": "2026-11-16T00:36:26+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 209,
-   "checked": "2026-11-15T16:46:15+09:00"
+   "count": 203,
+   "checked": "2026-11-16T00:36:26+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-15T16:46:15+09:00"
+   "checked": "2026-11-16T00:36:26+09:00"
   }
  },
  "items": [
@@ -108,6 +108,26 @@
    "chain": "메가박스",
    "event": "헝거게임 50번째 추첨의 날",
    "goods": "오리지널 티켓 No.191",
+   "theater": "평내호평역(구.남양주)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-16T00:36:26+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-16T00:36:26+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
    "theater": "영종하늘도시",
    "region": "인천",
    "status": "보유",
@@ -178,11 +198,31 @@
    "chain": "메가박스",
    "event": "헝거게임 50번째 추첨의 날",
    "goods": "오리지널 티켓 No.191",
+   "theater": "서면대한",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-16T00:36:26+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
    "theater": "양산증산",
    "region": "부산/대구/경상",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
    "since": "2026-11-14T00:39:41+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
+   "theater": "울산",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-16T00:36:26+09:00"
   },
   {
    "chain": "메가박스",
@@ -263,6 +303,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21631",
    "since": "2026-11-13T16:10:52+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "라라랜드",
+   "goods": "10주년 돌비 포스터",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21631",
+   "since": "2026-11-16T00:36:26+09:00"
   },
   {
    "chain": "메가박스",
@@ -1416,16 +1466,6 @@
   },
   {
    "chain": "메가박스",
-   "event": "이방인",
-   "goods": "포스터 2종 세트 굿즈 상영회",
-   "theater": "코엑스",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21640",
-   "since": "2026-11-14T18:21:07+09:00"
-  },
-  {
-   "chain": "메가박스",
    "event": "극장판 치이카와: 인어 섬의 비밀",
    "goods": "개봉 7주차 주말 현장",
    "theater": "강남",
@@ -1840,9 +1880,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "목동",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21639",
-   "since": "2026-11-12T19:54:41+09:00"
+   "since": "2026-11-16T00:36:26+09:00"
   },
   {
    "chain": "메가박스",
@@ -1860,9 +1900,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21639",
-   "since": "2026-11-13T16:10:52+09:00"
+   "since": "2026-11-16T00:36:26+09:00"
   },
   {
    "chain": "메가박스",
@@ -1980,9 +2020,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "대구신세계(동대구)",
    "region": "부산/대구/경상",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21639",
-   "since": "2026-11-15T16:46:15+09:00"
+   "since": "2026-11-16T00:36:26+09:00"
   },
   {
    "chain": "메가박스",
@@ -2003,106 +2043,6 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21639",
    "since": "2026-11-13T16:10:52+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "구의이스트폴",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-03T18:58:30+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "더부티크목동현대백화점",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-03T18:58:30+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "상암월드컵경기장",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-03T18:58:30+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "센트럴",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-02T18:20:32+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "코엑스",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-04T02:44:21+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "분당",
-   "region": "경기",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-06T18:47:17+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "수원스타필드",
-   "region": "경기",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-04T02:44:21+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "하남스타필드",
-   "region": "경기",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-03T18:58:30+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "대전신세계아트앤사이언스",
-   "region": "대전/충청/세종",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-02T18:20:32+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "[2026 NT Live] 골든보이 개봉 기념 포스터 엽서 증정 이벤트",
-   "goods": "굿즈",
-   "theater": "대구이시아",
-   "region": "부산/대구/경상",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21541",
-   "since": "2026-11-03T04:43:57+09:00"
   }
  ]
 }
