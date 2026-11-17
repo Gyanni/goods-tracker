@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-17T02:23:32+09:00",
+ "updated": "2026-11-17T10:01:54+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 347,
-   "checked": "2026-11-17T02:23:32+09:00"
+   "count": 348,
+   "checked": "2026-11-17T10:01:54+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-17T02:23:32+09:00"
+   "checked": "2026-11-17T10:01:54+09:00"
   }
  },
  "items": [
@@ -2003,6 +2003,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21646",
    "since": "2026-11-14T18:21:07+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "[2026 NT Live] 모두가 나의 아들 개봉 기념 포스터 엽서 증정 이벤트",
+   "goods": "굿즈",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21646",
+   "since": "2026-11-17T10:01:54+09:00"
   },
   {
    "chain": "메가박스",
