@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-18T03:29:17+09:00",
+ "updated": "2026-11-18T10:15:47+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 429,
-   "checked": "2026-11-18T03:29:17+09:00"
+   "count": 435,
+   "checked": "2026-11-18T10:15:47+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-18T03:29:17+09:00"
+   "checked": "2026-11-18T10:15:47+09:00"
   }
  },
  "items": [
@@ -50,9 +50,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "군자",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-14T00:39:41+09:00"
+   "since": "2026-11-18T10:15:47+09:00"
   },
   {
    "chain": "메가박스",
@@ -210,9 +210,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "동탄",
    "region": "경기",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-17T18:05:07+09:00"
+   "since": "2026-11-18T10:15:47+09:00"
   },
   {
    "chain": "메가박스",
@@ -220,9 +220,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "동탄역",
    "region": "경기",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-14T00:39:41+09:00"
+   "since": "2026-11-18T10:15:47+09:00"
   },
   {
    "chain": "메가박스",
@@ -708,6 +708,16 @@
    "chain": "메가박스",
    "event": "헝거게임 50번째 추첨의 날",
    "goods": "오리지널 티켓 No.191",
+   "theater": "광주하남",
+   "region": "광주/전라",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-18T10:15:47+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
    "theater": "순천",
    "region": "광주/전라",
    "status": "보유",
@@ -723,6 +733,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
    "since": "2026-11-18T03:29:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
+   "theater": "전주객사",
+   "region": "광주/전라",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-18T10:15:47+09:00"
   },
   {
    "chain": "메가박스",
@@ -2033,6 +2053,16 @@
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21659",
    "since": "2026-11-16T16:12:07+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "카드캡터 체리 극장판",
+   "goods": "개봉 2주차 주중 현장",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21659",
+   "since": "2026-11-18T10:15:47+09:00"
   },
   {
    "chain": "메가박스",
@@ -3728,6 +3758,16 @@
    "chain": "메가박스",
    "event": "룩백",
    "goods": "개봉 7주차 주중 현장",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21653",
+   "since": "2026-11-18T10:15:47+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 7주차 주중 현장",
    "theater": "대전중앙로",
    "region": "대전/충청/세종",
    "status": "보유",
@@ -3773,6 +3813,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21653",
    "since": "2026-11-18T03:29:17+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "룩백",
+   "goods": "개봉 7주차 주중 현장",
+   "theater": "전주객사",
+   "region": "광주/전라",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21653",
+   "since": "2026-11-18T10:15:47+09:00"
   },
   {
    "chain": "메가박스",
@@ -3943,6 +3993,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21651",
    "since": "2026-11-17T18:05:07+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "개봉 2주차 주중 현장",
+   "theater": "광주하남",
+   "region": "광주/전라",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21651",
+   "since": "2026-11-18T10:15:47+09:00"
   },
   {
    "chain": "메가박스",
