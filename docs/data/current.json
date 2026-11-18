@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-18T18:03:06+09:00",
+ "updated": "2026-11-19T02:58:05+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 483,
-   "checked": "2026-11-18T18:03:06+09:00"
+   "count": 495,
+   "checked": "2026-11-19T02:58:05+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-18T18:03:06+09:00"
+   "checked": "2026-11-19T02:58:05+09:00"
   }
  },
  "items": [
@@ -23,6 +23,16 @@
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21695",
    "since": "2026-11-18T18:03:06+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "프로젝트 헤일메리",
+   "goods": "돌비 포스터",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21695",
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -78,6 +88,16 @@
    "chain": "메가박스",
    "event": "프로젝트 헤일메리",
    "goods": "돌비 포스터",
+   "theater": "청주터미널",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21695",
+   "since": "2026-11-19T02:58:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "프로젝트 헤일메리",
+   "goods": "돌비 포스터",
    "theater": "대구신세계(동대구)",
    "region": "부산/대구/경상",
    "status": "보유",
@@ -90,9 +110,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "강남",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-16T16:12:07+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -150,9 +170,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "목동",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-16T16:12:07+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -200,9 +220,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "홍대(아니메)",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-17T18:05:07+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -510,9 +530,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "송도(트리플스트리트)",
    "region": "인천",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-16T00:36:26+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -720,9 +740,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "대구신세계(동대구)",
    "region": "부산/대구/경상",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-16T16:12:07+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -763,6 +783,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
    "since": "2026-11-18T18:03:06+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "오리지널 티켓 No.191",
+   "theater": "부산극장",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -970,9 +1000,9 @@
    "goods": "10주년 돌비 포스터",
    "theater": "구의이스트폴",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21631",
-   "since": "2026-11-14T18:21:07+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -980,9 +1010,9 @@
    "goods": "10주년 돌비 포스터",
    "theater": "목동",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21631",
-   "since": "2026-11-13T16:10:52+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -1000,9 +1030,9 @@
    "goods": "10주년 돌비 포스터",
    "theater": "코엑스",
    "region": "서울",
-   "status": "보유",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21631",
-   "since": "2026-11-18T18:03:06+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -1020,9 +1050,9 @@
    "goods": "10주년 돌비 포스터",
    "theater": "남양주현대아울렛스페이스원",
    "region": "경기",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21631",
-   "since": "2026-11-13T16:10:52+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -1290,9 +1320,9 @@
    "goods": "오리지널 티켓 No.190",
    "theater": "구의이스트폴",
    "region": "서울",
-   "status": "보유",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
-   "since": "2026-11-06T18:47:17+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -1690,9 +1720,9 @@
    "goods": "오리지널 티켓 No.190",
    "theater": "송도(트리플스트리트)",
    "region": "인천",
-   "status": "보유",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21593",
-   "since": "2026-11-06T18:47:17+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -2258,6 +2288,16 @@
    "chain": "메가박스",
    "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
    "goods": "개봉 1주차 주중 현장",
+   "theater": "강동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
+   "since": "2026-11-19T02:58:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
+   "goods": "개봉 1주차 주중 현장",
    "theater": "마곡",
    "region": "서울",
    "status": "보유",
@@ -2310,9 +2350,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "홍대(아니메)",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
-   "since": "2026-11-17T02:23:32+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -2398,6 +2438,16 @@
    "chain": "메가박스",
    "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
    "goods": "개봉 1주차 주중 현장",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
+   "since": "2026-11-19T02:58:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
+   "goods": "개봉 1주차 주중 현장",
    "theater": "송도(트리플스트리트)",
    "region": "인천",
    "status": "보유",
@@ -2420,9 +2470,29 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "대전신세계아트앤사이언스",
    "region": "대전/충청/세종",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
-   "since": "2026-11-17T02:23:32+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
+   "goods": "개봉 1주차 주중 현장",
+   "theater": "대전유성",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
+   "since": "2026-11-19T02:58:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
+   "goods": "개봉 1주차 주중 현장",
+   "theater": "대전중앙로",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -2440,9 +2510,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "세종나성",
    "region": "대전/충청/세종",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
-   "since": "2026-11-17T02:23:32+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -2453,6 +2523,26 @@
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
    "since": "2026-11-18T18:03:06+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
+   "goods": "개봉 1주차 주중 현장",
+   "theater": "청주터미널",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
+   "since": "2026-11-19T02:58:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
+   "goods": "개봉 1주차 주중 현장",
+   "theater": "구미강동",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -2508,11 +2598,31 @@
    "chain": "메가박스",
    "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
    "goods": "개봉 1주차 주중 현장",
+   "theater": "울산",
+   "region": "부산/대구/경상",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
+   "since": "2026-11-19T02:58:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
+   "goods": "개봉 1주차 주중 현장",
    "theater": "전주객사",
    "region": "광주/전라",
    "status": "준비중",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
    "since": "2026-11-18T18:03:06+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "영화 뱅드림! 아베 무지카 프리마 오로라",
+   "goods": "개봉 1주차 주중 현장",
+   "theater": "춘천석사",
+   "region": "강원",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -3640,9 +3750,9 @@
    "goods": "개봉 2주차 주중 현장",
    "theater": "안성스타필드",
    "region": "경기",
-   "status": "보유",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21663",
-   "since": "2026-11-17T18:05:07+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -3803,6 +3913,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21660",
    "since": "2026-11-16T16:12:07+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "호루몽",
+   "goods": "개봉 2주차 주중 현장",
+   "theater": "대구세븐밸리(칠곡)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21660",
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
@@ -4270,9 +4390,9 @@
    "goods": "개봉 7주차 주중 현장",
    "theater": "서면대한",
    "region": "부산/대구/경상",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21653",
-   "since": "2026-11-18T03:29:17+09:00"
+   "since": "2026-11-19T02:58:05+09:00"
   },
   {
    "chain": "메가박스",
