@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-21T01:03:34+09:00",
+ "updated": "2026-11-21T07:37:49+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 632,
-   "checked": "2026-11-21T01:03:34+09:00"
+   "count": 634,
+   "checked": "2026-11-21T07:37:49+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-21T01:03:34+09:00"
+   "checked": "2026-11-21T07:37:49+09:00"
   }
  },
  "items": [
@@ -3486,6 +3486,16 @@
   },
   {
    "chain": "메가박스",
+   "event": "마더 메리",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21652",
+   "since": "2026-11-21T07:37:49+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "옆에서 숨만 쉬어도 좋아",
    "goods": "줄자 굿즈 상영회",
    "theater": "상암월드컵경기장",
@@ -3493,6 +3503,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21680",
    "since": "2026-11-20T02:18:05+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "옆에서 숨만 쉬어도 좋아",
+   "goods": "줄자 굿즈 상영회",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21680",
+   "since": "2026-11-21T07:37:49+09:00"
   },
   {
    "chain": "메가박스",
