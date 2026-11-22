@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-22T16:22:43+09:00",
+ "updated": "2026-11-23T00:37:40+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 660,
-   "checked": "2026-11-22T16:22:43+09:00"
+   "count": 658,
+   "checked": "2026-11-23T00:37:40+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-22T16:22:43+09:00"
+   "checked": "2026-11-23T00:37:40+09:00"
   }
  },
  "items": [
@@ -380,9 +380,9 @@
    "goods": "오리지널 티켓 No.192",
    "theater": "영종하늘도시",
    "region": "인천",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21713",
-   "since": "2026-11-21T01:03:34+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -1270,9 +1270,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "남양주현대아울렛스페이스원",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-21T01:03:34+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -1310,9 +1310,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "백석벨라시타",
    "region": "경기",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-16T16:12:07+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -1800,9 +1800,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "서면대한",
    "region": "부산/대구/경상",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-16T00:36:26+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -1900,9 +1900,9 @@
    "goods": "오리지널 티켓 No.191",
    "theater": "전주혁신",
    "region": "광주/전라",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21648",
-   "since": "2026-11-18T03:29:17+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -2140,9 +2140,9 @@
    "goods": "돌비 포스터",
    "theater": "목동",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21630",
-   "since": "2026-11-11T16:04:13+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3280,9 +3280,9 @@
    "goods": "개봉 7주차 주말 현장",
    "theater": "상봉",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21697",
-   "since": "2026-11-20T16:00:12+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3330,9 +3330,9 @@
    "goods": "개봉 7주차 주말 현장",
    "theater": "홍대(아니메)",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21697",
-   "since": "2026-11-21T01:03:34+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3360,9 +3360,9 @@
    "goods": "개봉 7주차 주말 현장",
    "theater": "수원AK플라자(수원역)",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21697",
-   "since": "2026-11-22T16:22:43+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3480,9 +3480,9 @@
    "goods": "개봉 8주차 주말 현장",
    "theater": "부천스타필드시티",
    "region": "경기",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21696",
-   "since": "2026-11-19T09:15:26+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3630,9 +3630,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "남양주현대아울렛스페이스원",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21669",
-   "since": "2026-11-22T16:22:43+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3660,9 +3660,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "수원스타필드",
    "region": "경기",
-   "status": "보유",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21669",
-   "since": "2026-11-21T01:03:34+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3700,9 +3700,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "대전신세계아트앤사이언스",
    "region": "대전/충청/세종",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21669",
-   "since": "2026-11-20T02:18:05+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3720,9 +3720,9 @@
    "goods": "개봉 1주차 주말 현장",
    "theater": "청주터미널",
    "region": "대전/충청/세종",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21669",
-   "since": "2026-11-20T02:18:05+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -3743,26 +3743,6 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21652",
    "since": "2026-11-21T07:37:49+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "옆에서 숨만 쉬어도 좋아",
-   "goods": "줄자 굿즈 상영회",
-   "theater": "상암월드컵경기장",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21680",
-   "since": "2026-11-20T02:18:05+09:00"
-  },
-  {
-   "chain": "메가박스",
-   "event": "옆에서 숨만 쉬어도 좋아",
-   "goods": "줄자 굿즈 상영회",
-   "theater": "코엑스",
-   "region": "서울",
-   "status": "보유",
-   "link": "https://www.megabox.co.kr/event/detail?eventNo=21680",
-   "since": "2026-11-21T21:30:03+09:00"
   },
   {
    "chain": "메가박스",
@@ -4040,9 +4020,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "수원인계",
    "region": "경기",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
-   "since": "2026-11-18T18:03:06+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -4090,9 +4070,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "인천학익(시티오씨엘)",
    "region": "인천",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
-   "since": "2026-11-21T01:03:34+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -4180,9 +4160,9 @@
    "goods": "개봉 1주차 주중 현장",
    "theater": "대구신세계(동대구)",
    "region": "부산/대구/경상",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21661",
-   "since": "2026-11-17T02:23:32+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -5490,9 +5470,9 @@
    "goods": "개봉 2주차 주중 현장",
    "theater": "코엑스",
    "region": "서울",
-   "status": "보유",
+   "status": "소량",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21660",
-   "since": "2026-11-18T18:03:06+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
@@ -5870,9 +5850,9 @@
    "goods": "개봉 7주차 주중 현장",
    "theater": "상봉",
    "region": "서울",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21653",
-   "since": "2026-11-21T21:30:03+09:00"
+   "since": "2026-11-23T00:37:40+09:00"
   },
   {
    "chain": "메가박스",
