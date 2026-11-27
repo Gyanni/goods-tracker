@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-27T08:15:10+09:00",
+ "updated": "2026-11-27T14:18:15+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
-   "count": 630,
-   "checked": "2026-11-27T08:15:10+09:00"
+   "count": 657,
+   "checked": "2026-11-27T14:18:15+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-27T08:15:10+09:00"
+   "checked": "2026-11-27T14:18:15+09:00"
   }
  },
  "items": [
@@ -68,11 +68,61 @@
    "chain": "메가박스",
    "event": "미지와의 조우",
    "goods": "오리지널 포스터",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21754",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "미지와의 조우",
+   "goods": "오리지널 포스터",
    "theater": "고양스타필드",
    "region": "경기",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21754",
    "since": "2026-11-26T23:20:21+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "미지와의 조우",
+   "goods": "오리지널 포스터",
+   "theater": "금정AK플라자",
+   "region": "경기",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21754",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "미지와의 조우",
+   "goods": "오리지널 포스터",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21754",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "미지와의 조우",
+   "goods": "오리지널 포스터",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21754",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "미지와의 조우",
+   "goods": "오리지널 포스터",
+   "theater": "대전현대프리미엄아울렛",
+   "region": "대전/충청/세종",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21754",
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -123,6 +173,26 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21752",
    "since": "2026-11-26T23:20:21+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "듄",
+   "goods": "돌비 포스터",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21752",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "듄",
+   "goods": "돌비 포스터",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21752",
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -258,6 +328,16 @@
    "chain": "메가박스",
    "event": "슬픈 열대",
    "goods": "오리지널 티켓 No.193",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "슬픈 열대",
+   "goods": "오리지널 티켓 No.193",
    "theater": "고양스타필드",
    "region": "경기",
    "status": "보유",
@@ -288,11 +368,31 @@
    "chain": "메가박스",
    "event": "슬픈 열대",
    "goods": "오리지널 티켓 No.193",
+   "theater": "금정AK플라자",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "슬픈 열대",
+   "goods": "오리지널 티켓 No.193",
    "theater": "김포한강신도시",
    "region": "경기",
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
    "since": "2026-11-25T21:39:06+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "슬픈 열대",
+   "goods": "오리지널 티켓 No.193",
+   "theater": "남양주현대아울렛스페이스원",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -338,6 +438,16 @@
    "chain": "메가박스",
    "event": "슬픈 열대",
    "goods": "오리지널 티켓 No.193",
+   "theater": "부천스타필드시티",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "슬픈 열대",
+   "goods": "오리지널 티켓 No.193",
    "theater": "분당",
    "region": "경기",
    "status": "준비중",
@@ -373,6 +483,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
    "since": "2026-11-25T21:39:06+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "슬픈 열대",
+   "goods": "오리지널 티켓 No.193",
+   "theater": "수원스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -783,6 +903,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
    "since": "2026-11-25T21:39:06+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "슬픈 열대",
+   "goods": "오리지널 티켓 No.193",
+   "theater": "제주삼화",
+   "region": "제주",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -2260,9 +2390,9 @@
    "goods": "돌비 포스터",
    "theater": "코엑스",
    "region": "서울",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21695",
-   "since": "2026-11-26T23:20:21+09:00"
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -2280,9 +2410,9 @@
    "goods": "돌비 포스터",
    "theater": "남양주현대아울렛스페이스원",
    "region": "경기",
-   "status": "소량",
+   "status": "소진",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21695",
-   "since": "2026-11-26T23:20:21+09:00"
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -3656,6 +3786,126 @@
   },
   {
    "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "구의이스트폴",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "목동",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "코엑스",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "홍대(아니메)",
+   "region": "서울",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "고양스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "남양주현대아울렛스페이스원",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "수원AK플라자(수원역)",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "수원스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "하남스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "송도(트리플스트리트)",
+   "region": "인천",
+   "status": "준비중",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "헝거게임 50번째 추첨의 날",
+   "goods": "개봉 2주차 주말 현장",
+   "theater": "대구신세계(동대구)",
+   "region": "부산/대구/경상",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21774",
+   "since": "2026-11-27T14:18:15+09:00"
+  },
+  {
+   "chain": "메가박스",
    "event": "마더메리",
    "goods": "더 레드 포스터 굿즈 상영회",
    "theater": "목동",
@@ -3663,6 +3913,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21732",
    "since": "2026-11-24T15:54:22+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더메리",
+   "goods": "더 레드 포스터 굿즈 상영회",
+   "theater": "상암월드컵경기장",
+   "region": "서울",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21732",
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -3683,6 +3943,16 @@
    "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21732",
    "since": "2026-11-24T15:54:22+09:00"
+  },
+  {
+   "chain": "메가박스",
+   "event": "마더메리",
+   "goods": "더 레드 포스터 굿즈 상영회",
+   "theater": "수원스타필드",
+   "region": "경기",
+   "status": "보유",
+   "link": "https://www.megabox.co.kr/event/detail?eventNo=21732",
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
@@ -4590,9 +4860,9 @@
    "goods": "개봉 1주차 현장",
    "theater": "화명",
    "region": "부산/대구/경상",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21721",
-   "since": "2026-11-25T03:49:58+09:00"
+   "since": "2026-11-27T14:18:15+09:00"
   },
   {
    "chain": "메가박스",
