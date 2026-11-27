@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-28T00:31:13+09:00",
+ "updated": "2026-11-28T08:41:22+09:00",
  "mode": "live",
  "sources": {
   "메가박스": {
    "ok": true,
    "count": 723,
-   "checked": "2026-11-28T00:31:13+09:00"
+   "checked": "2026-11-28T08:41:22+09:00"
   },
   "CGV": {
    "ok": false,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://cgv.co.kr/api/v1/content/event/saprm/saprm/searchSaprmEvtListForPage?coCd=A420&startRow=0&listCount=50",
-   "checked": "2026-11-28T00:31:13+09:00"
+   "checked": "2026-11-28T08:41:22+09:00"
   }
  },
  "items": [
@@ -800,9 +800,9 @@
    "goods": "오리지널 티켓 No.193",
    "theater": "군자",
    "region": "서울",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
-   "since": "2026-11-25T21:39:06+09:00"
+   "since": "2026-11-28T08:41:22+09:00"
   },
   {
    "chain": "메가박스",
@@ -960,9 +960,9 @@
    "goods": "오리지널 티켓 No.193",
    "theater": "동탄역",
    "region": "경기",
-   "status": "준비중",
+   "status": "보유",
    "link": "https://www.megabox.co.kr/event/detail?eventNo=21760",
-   "since": "2026-11-25T21:39:06+09:00"
+   "since": "2026-11-28T08:41:22+09:00"
   },
   {
    "chain": "메가박스",
